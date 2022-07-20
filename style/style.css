@@ -1,0 +1,19 @@
+.div2 {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 5px;
+    width: 20%;
+    }
+    .div2:nth-child(5n) , .div2:last-child{
+        border-right-width: 2px;
+    }
+    .div2:nth-child(5n+1){
+        border-left-width: 2px;
+    }
+    .div2:nth-child(2n){
+        background-color: pink;
+    }
+    .div2:nth-child(2n+1){
+        background-color: aqua;
+    }
